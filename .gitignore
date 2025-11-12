@@ -1,39 +1,36 @@
-# Eclipse
-.settings/
-.classpath
-.project
-.metadata/
-*.tmp
-
-# NetBeans
-nbproject/private/
-nbproject/
+cat > .gitignore << 'EOF'
+# Build folders
+bin/
+target/
 build/
 nbbuild/
 dist/
 nbdist/
+out/
+
+# IDE configurations
+.settings/
+.classpath
+.project
+.metadata/
+nbproject/private/
+nbproject/
 .nb-gradle/
 
-# Maven
-target/
+# Build tools
+.gradle/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
 
-# Gradle
-.gradle/
-build/
-out/
-bin/
-
-# Arquivos compilados
+# Compiled files
 *.class
 *.jar
 *.war
 *.ear
 
-# Arquivos do sistema
+# System files
 .DS_Store
 Thumbs.db
 
@@ -41,9 +38,10 @@ Thumbs.db
 *.log
 logs/
 
-# Arquivos temporários
+# Temporary files
 *.tmp
 *.temp
 
-# e(fx)clipse
+# JavaFX
 .fxbuild
+EOF
