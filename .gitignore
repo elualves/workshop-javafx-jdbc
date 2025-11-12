@@ -2,12 +2,36 @@
 .settings/
 .classpath
 .project
-bin/
+.metadata/
 *.tmp
+
+# NetBeans
+nbproject/private/
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# Gradle
+.gradle/
+build/
+out/
+bin/
 
 # Arquivos compilados
 *.class
 *.jar
+*.war
+*.ear
 
 # Arquivos do sistema
 .DS_Store
@@ -15,15 +39,11 @@ Thumbs.db
 
 # Logs
 *.log
+logs/
 
 # Arquivos temporários
 *.tmp
 *.temp
-
-# Arquivos de build
-build/
-dist/
-target/
 
 # e(fx)clipse
 .fxbuild
