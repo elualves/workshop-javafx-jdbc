@@ -1,0 +1,29 @@
+# Eclipse
+.settings/
+.classpath
+.project
+bin/
+*.tmp
+
+# Arquivos compilados
+*.class
+*.jar
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de build
+build/
+dist/
+target/
+
+# e(fx)clipse
+.fxbuild
